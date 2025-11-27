@@ -15,6 +15,54 @@ export const metadata = {
   title: "Cinthia Costa Beauty Studio",
   description:
     "Extensao de cilios, design de sobrancelhas e mentoria profissional com assinatura Cinthia Costa em Capivari de Baixo, Santa Catarina.",
+  keywords: [
+    "extensao de cilios",
+    "lash designer",
+    "design de sobrancelhas",
+    "Capivari de Baixo",
+    "Santa Catarina",
+    "volume russo",
+    "fio a fio",
+    "lash lifting",
+    "curso de cilios",
+  ],
+  authors: [{ name: "Cinthia Costa Beauty Studio" }],
+  creator: "Cinthia Costa Beauty Studio",
+  publisher: "Cinthia Costa Beauty Studio",
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    siteName: "Cinthia Costa Beauty Studio",
+    title: "Cinthia Costa Beauty Studio | Lash Designer & Beauty Expert",
+    description:
+      "Extensao de cilios fio a fio, hibrido e mega volume. Design de sobrancelhas e mentoria para lash artists em Capivari de Baixo, SC.",
+    images: [
+      {
+        url: "/image/hero01.png",
+        width: 1200,
+        height: 630,
+        alt: "Cinthia Costa Beauty Studio - Extensao de Cilios",
+      },
+    ],
+  },
+  facebook: {
+    appId: "",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cinthia Costa Beauty Studio | Lash Designer & Beauty Expert",
+    description:
+      "Extensao de cilios fio a fio, hibrido e mega volume. Design de sobrancelhas e mentoria para lash artists.",
+    images: ["/image/hero01.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  verification: {
+    google: "",
+    facebook: "",
+  },
 };
 
 export default function RootLayout({ children }) {
