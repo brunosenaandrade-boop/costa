@@ -144,9 +144,26 @@ export const siteData = {
   ],
   contact: {
     phone: "(48) 99192-1003",
+    email: "cintia12k12k@gmail.com",
     whatsapp: "https://wa.me/5548991921003",
     instagram: "https://instagram.com/cinthia_costalash",
     address: "Capivari de Baixo | Santa Catarina",
     hours: "Seg a Sab - 9h as 20h",
+  },
+  business: {
+    cnpj: "53.435.201/0001-88",
+    razaoSocial: "53.435.201 CINTHIA COSTA GONCALVES",
+    nomeFantasia: "Cinthia Costa Beauty Studio",
+    endereco: {
+      logradouro: "Rua Manoel Martins Machado",
+      numero: "158",
+      bairro: "Santa Lucia",
+      cidade: "Capivari de Baixo",
+      uf: "SC",
+      cep: "88745-000",
+    },
+    atividade: "Obras de acabamento em gesso e estuque",
+    situacao: "ATIVA",
+    dataAbertura: "09/01/2024",
   },
 };

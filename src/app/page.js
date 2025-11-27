@@ -63,18 +63,59 @@ export default function Home() {
         </div>
       </main>
       <footer className="relative z-10 border-t border-white/30 bg-white/60 text-sm text-zinc-600 backdrop-blur dark:border-white/10 dark:bg-black/40 dark:text-zinc-400">
-        <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-6 md:flex-row md:items-center md:justify-between md:px-10">
-          <p>
-            {"\u00A9"} {new Date().getFullYear()} {siteData.brand.name}. Todos os
-            direitos reservados.
-          </p>
-          <div className="flex gap-4">
-            <Link href={siteData.contact.instagram} className="transition hover:text-rose-500">
-              Instagram
-            </Link>
-            <Link href={siteData.hero.ctaPrimary.href} className="transition hover:text-rose-500">
-              WhatsApp
-            </Link>
+        <div className="mx-auto max-w-6xl px-6 py-8 md:px-10">
+          <div className="grid gap-8 md:grid-cols-3">
+            <div className="flex flex-col gap-2">
+              <span className="font-semibold text-zinc-800 dark:text-zinc-200">
+                {siteData.business.nomeFantasia}
+              </span>
+              <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                {siteData.business.razaoSocial}
+              </p>
+              <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                CNPJ: {siteData.business.cnpj}
+              </p>
+              <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                {siteData.business.endereco.logradouro}, {siteData.business.endereco.numero} - {siteData.business.endereco.bairro}
+              </p>
+              <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                {siteData.business.endereco.cidade} - {siteData.business.endereco.uf}, CEP {siteData.business.endereco.cep}
+              </p>
+            </div>
+            <div className="flex flex-col gap-2">
+              <span className="font-semibold text-zinc-800 dark:text-zinc-200">Contato</span>
+              <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                {siteData.contact.phone}
+              </p>
+              <a href={`mailto:${siteData.contact.email}`} className="text-xs text-zinc-500 transition hover:text-rose-500 dark:text-zinc-400">
+                {siteData.contact.email}
+              </a>
+              <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                {siteData.contact.hours}
+              </p>
+              <div className="flex gap-3 pt-1">
+                <Link href={siteData.contact.instagram} className="text-xs transition hover:text-rose-500">
+                  Instagram
+                </Link>
+                <Link href={siteData.contact.whatsapp} className="text-xs transition hover:text-rose-500">
+                  WhatsApp
+                </Link>
+              </div>
+            </div>
+            <div className="flex flex-col gap-2">
+              <span className="font-semibold text-zinc-800 dark:text-zinc-200">Legal</span>
+              <Link href="/privacidade" className="text-xs text-zinc-500 transition hover:text-rose-500 dark:text-zinc-400">
+                Politica de Privacidade
+              </Link>
+              <Link href="/termos" className="text-xs text-zinc-500 transition hover:text-rose-500 dark:text-zinc-400">
+                Termos de Uso
+              </Link>
+            </div>
+          </div>
+          <div className="mt-8 border-t border-zinc-200 pt-4 text-center text-xs text-zinc-500 dark:border-zinc-700 dark:text-zinc-400">
+            <p>
+              {"\u00A9"} {new Date().getFullYear()} {siteData.brand.name}. Todos os direitos reservados.
+            </p>
           </div>
         </div>
       </footer>
