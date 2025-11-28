@@ -6,3 +6,4 @@ export { GallerySection } from "./GallerySection";
 export { FaqSection } from "./FaqSection";
 export { ContactSection } from "./ContactSection";
 export { JourneySection } from "./JourneySection";
+export { AboutSection } from "./AboutSection";

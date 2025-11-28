@@ -2,6 +2,7 @@ import Link from "next/link";
 import {
   HeroSection,
   JourneySection,
+  AboutSection,
   ServicesSection,
   ExperienceSection,
   TestimonialsSection,
@@ -60,6 +61,12 @@ export default function Home() {
               Looks
             </Link>
             <Link
+              href="#sobre"
+              className="rounded-full px-4 py-2 transition-all hover:bg-rose-50 hover:text-rose-600 dark:hover:bg-rose-500/10"
+            >
+              Sobre
+            </Link>
+            <Link
               href="#servicos"
               className="rounded-full px-4 py-2 transition-all hover:bg-rose-50 hover:text-rose-600 dark:hover:bg-rose-500/10"
             >
@@ -92,6 +99,7 @@ export default function Home() {
       <main className="relative z-10 mx-auto flex max-w-6xl flex-col gap-20 px-6 pb-24 pt-10 md:px-10">
         <HeroSection />
         <JourneySection />
+        <AboutSection />
         <ServicesSection />
         <ExperienceSection />
         <div id="depoimentos" className="space-y-20">

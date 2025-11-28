@@ -3,6 +3,44 @@ export const siteData = {
     name: "Cinthia Costa Beauty Studio",
     tagline: "Lash designer & beauty expert",
   },
+  about: {
+    missao: {
+      title: "Nossa Missao",
+      description:
+        "Realcar a beleza natural de cada mulher atraves de tecnicas exclusivas de extensao de cilios e design de sobrancelhas, proporcionando autoestima, confianca e bem-estar. Buscamos excelencia em cada procedimento, com atendimento humanizado e personalizado, transformando olhares e elevando a autoconfianca de nossas clientes.",
+    },
+    quemSomos: {
+      title: "Quem Somos",
+      description:
+        "O Cinthia Costa Beauty Studio e um espaco dedicado a arte da beleza do olhar, localizado no coracao de Capivari de Baixo, Santa Catarina. Fundado em 2024 por Cinthia Costa, esteticista apaixonada por transformar olhares, o studio se destaca pela qualidade premium dos servicos e pelo ambiente acolhedor que faz cada cliente se sentir especial.",
+      highlights: [
+        "Mais de 1.200 procedimentos realizados com excelencia",
+        "340 clientes fidelizadas que confiam em nosso trabalho",
+        "80 alunas formadas pela CCosta Academy",
+        "Tecnicas atualizadas e produtos de alta qualidade",
+        "Ambiente higienizado e confortavel",
+        "Atendimento personalizado do inicio ao fim",
+      ],
+    },
+    valores: [
+      {
+        title: "Excelencia",
+        description: "Cada detalhe importa. Buscamos a perfeicao em todos os procedimentos.",
+      },
+      {
+        title: "Transparencia",
+        description: "Comunicacao clara sobre tecnicas, precos e expectativas de resultado.",
+      },
+      {
+        title: "Cuidado",
+        description: "Tratamos cada cliente como unica, respeitando suas caracteristicas.",
+      },
+      {
+        title: "Inovacao",
+        description: "Sempre atualizadas com as melhores tecnicas e tendencias do mercado.",
+      },
+    ],
+  },
   hero: {
     eyebrow: "Capivari de Baixo | Santa Catarina",
     title:
