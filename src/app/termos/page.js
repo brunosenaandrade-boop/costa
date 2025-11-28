@@ -243,7 +243,8 @@ export default function TermosPage() {
             </li>
             <li>
               <strong>Endereco:</strong> {siteData.business.endereco.logradouro}
-              , {siteData.business.endereco.numero} -{" "}
+              , {siteData.business.endereco.numero}
+              {siteData.business.endereco.complemento && ` - ${siteData.business.endereco.complemento}`},{" "}
               {siteData.business.endereco.bairro},{" "}
               {siteData.business.endereco.cidade} -{" "}
               {siteData.business.endereco.uf}, CEP{" "}

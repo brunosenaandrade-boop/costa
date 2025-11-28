@@ -41,7 +41,8 @@ export default function PrivacidadePage() {
             {siteData.business.razaoSocial}), inscrita no CNPJ sob o n.{" "}
             {siteData.business.cnpj}, com sede em{" "}
             {siteData.business.endereco.logradouro},{" "}
-            {siteData.business.endereco.numero} -{" "}
+            {siteData.business.endereco.numero}
+            {siteData.business.endereco.complemento && ` - ${siteData.business.endereco.complemento}`},{" "}
             {siteData.business.endereco.bairro},{" "}
             {siteData.business.endereco.cidade} -{" "}
             {siteData.business.endereco.uf}, CEP{" "}
@@ -197,7 +198,8 @@ export default function PrivacidadePage() {
             </li>
             <li>
               <strong>Endereco:</strong> {siteData.business.endereco.logradouro}
-              , {siteData.business.endereco.numero} -{" "}
+              , {siteData.business.endereco.numero}
+              {siteData.business.endereco.complemento && ` - ${siteData.business.endereco.complemento}`},{" "}
               {siteData.business.endereco.bairro},{" "}
               {siteData.business.endereco.cidade} -{" "}
               {siteData.business.endereco.uf}, CEP{" "}
