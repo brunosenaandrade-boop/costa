@@ -69,7 +69,7 @@ export const metadata = {
     facebook: "",
   },
   other: {
-    "facebook-domain-verification": "d833jhn3vcl7846slw8ze87xc4o70z",
+    "facebook-domain-verification": "a8unp3red2r8knoae5mynnerggfj7v",
   },
   alternates: {
     canonical: siteUrl,
